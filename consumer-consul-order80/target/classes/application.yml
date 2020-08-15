@@ -1,0 +1,23 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: consumer-consul-order
+#注册生产者
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+  datasource:
+    url: jdbc:mysql://39.96.32.6/test
+    password: 123456
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#服务健康检测
+management:
+  endpoint:
+    health:
+      show-details: always
+

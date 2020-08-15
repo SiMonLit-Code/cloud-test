@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-commons/api-commons.iml" filepath="$PROJECT_DIR$/api-commons/api-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-test1.iml" filepath="$PROJECT_DIR$/cloud-test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-consul-order80/consumer-consul-order80.iml" filepath="$PROJECT_DIR$/consumer-consul-order80/consumer-consul-order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider-consul-payment9001/provider-consul-payment9001.iml" filepath="$PROJECT_DIR$/provider-consul-payment9001/provider-consul-payment9001.iml" />
+    </modules>
+  </component>
+</project>

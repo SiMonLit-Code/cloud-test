@@ -1,0 +1,16 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: provider-consul-payment9001
+
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+
+management:
+  endpoint:
+    health:
+      show-details: always
